@@ -1,0 +1,154 @@
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+
+def playaging():
+    print("welcome to the lost treasure of therumipia isand and hounted island cointaining the biggest create of gold in the world")
+    print("you mission is to find the treasure and not get killed")
+
+    rightorleft = input("\n you sail your way to shore hoping it is safe you land your feet on the mud and then you come across a path that splits in to 2 part 'r'ight or 'l'eft which way do you wanna go?")
+    if rightorleft == 'r':
+        print ("\n you remeber what your old man used to say 'right is always the right way' so  you stick with the right path ")
+        print("you walked for 2 miles you where hungry bust mostly needed to hydrate you where begining to loose hope until you found cocunuts but they where higth up on a tree")
+        palm = """
+                           ****
+                         ********
+                        **  ******
+                         *   ******     ******
+                             ******   *********
+                              ****  *****   ***
+                              ***  ***     **
+                        *************       *
+                      ******************
+                     *****   H*****H*******
+                     ***     H-___-H  *********
+                      ***    H     H      *******
+                       **    H-___-H        *****
+                         *   H     H         ****
+                             H     H         ***
+                             H-___-H         **
+                             H     H         *
+                             H-___-H
+        """
+        print(palm)
+        climbornot = input("what do i do 'c'limb the tree of keep 'w'alking? ")
+        if climbornot == 'w':
+
+            print("you dicde to keep walking not knowing what would have happened to you if you would have decided to climb the tree")
+            print("scared,hungry, cold you keep walking hoping you will find that treasure untill come come across a huge temple")
+            temple = """
+                     |
+                   .' `.
+                : (     ) :
+     .      |  ( )`._ _.'( )  |      .
+     O  .   |`-  -|  .  |-  -'|   .  O
+     H  o   |A /\ | ( ) | /\ A|   o  H
+     H  I   |  -' | | | | `-  |   I  H
+    .H__T___|_|___|_|_|_|___|_|___T__H.
+    |_________________________________|
+                 /       \
+                /         \     
+               /           \
+            """ 
+            print(temple)
+            templeorwalk = input("but the path goes on what do i do? go in 't'emple or keep 'w'alking")
+            if templeorwalk == 't':
+                print("you walk in and relize that the map that you brought with you was of the inside of it and you happely follow your map")
+                door = """
+88888888888888888888888888888888888888888888888888888888888888888888888
+88.._|      | `-.  | `.  -_-_ _-_  _-  _- -_ -  .'|   |.'|     |  _..88
+88   `-.._  |    |`!  |`.  -_ -__ -_ _- _-_-  .'  |.;'   |   _.!-'|  88
+88      | `-!._  |  `;!  ;. _______________ ,'| .-' |   _!.i'     |  88
+88..__  |     |`-!._ | `.| |_______________||."'|  _!.;'   |     _|..88
+88   |``"..__ |    |`";.| i|_|MMMMMMMMMMM|_|'| _!-|   |   _|..-|'    88
+88   |      |``--..|_ | `;!|l|MMoMMMMoMMM|1|.'j   |_..!-'|     |     88
+88   |      |    |   |`-,!_|_|MMMMP'YMMMM|_||.!-;'  |    |     |     88
+88___|______|____!.,.!,.!,!|d|MMMo 1 loMM|p|,!,.!.,.!..__|_____|_____88
+88      |     |    |  |  | |_|MMMMb,dMMMM|_|| |   |   |    |      |  88
+88      |     |    |..!-;'i|r|MPYMoMMMMoM|r| |`-..|   |    |      |  88
+88      |    _!.-j'  | _!,"|_|M<>MMMMoMMM|_||!._|  `i-!.._ |      |  88                            
+88     _!.-'|    | _."|  !;|1|MbdMMoMMMMM|l|`.| `-._|    |``-.._  |  88
+88..-i'     |  _.''|  !-| !|_|MMMoMMMMoMM|_|.|`-. | ``._ |     |``"..88
+88   |      |.|    |.|  !| |u|MoMMMMoMMMM|n||`. |`!   | `".    |     88
+88   |  _.-'  |  .'  |.' |/|_|MMMMoMMMMoM|_|! |`!  `,.|    |-._|     88
+88  _!"'|     !.'|  .'| .'|[@]MMMMMMMMMMM[@] \|  `. | `._  |   `-._  88
+88-'    |   .'   |.|  |/| /                 \|`.  |`!    |.|      |`-88
+88      |_.'|   .' | .' |/                   \  \ |  `.  | `._    |  88
+88     .'   | .'   |/|  /                     \ |`!   |`.|    `.  |  88
+88  _.'     !'|   .' | /                       \|  `  |  `.    |`.|  88                  
+88 vanishing point 888888888888888888888888888888888888888888888(FL)888
+   ,-' ;  ! `-.
+  / :  !  :  . \
+ |_ ;   __:  ;  |
+ )| .  :)2(.  !  |
+ |"    (##)  _  |
+ |  :  ;`'  (_) (
+ |  :  :  .     |
+ )_ !  ,  ;  ;  |
+ || .  .  :  :  |
+ |" .  |  :  .  |
+ |mt-2_;----.___|    
+            """
+                print(door)
+                doors = input("but wait there are 2 doors and your map says one of them leads to your death wich one do you wanna choose 1 or 2")
+                if doors == '1':
+                    print("you choose door 1 nervouse to see whats on the other side you open the door slowly and to your amise you found the tresure congratulations")
+                    play6 = input("do you wanna play again y or n")
+                    if play6 == 'y':
+                        playaging()
+                    else:
+                        exit()
+                else:
+                    print("you choose door 2 with exitment and to your surprise you get a arrow straight to your foorhead you fall to the ground regreting ever coming here and you die a slow and painfull death")
+                    play4 = input("do you wanna play again y or n")
+                    if play4 == 'y':
+                        playaging()
+                    else:
+                        exit()
+
+            else:
+                print("you keep wolking for hours in hope of finding the right spot your map shows a temple but i dint look like the one we saw... you walk and walk untill you die of starvation")
+                play3 = input("do you wanna play again y or n")
+                if play3 == 'y':
+                    playaging()
+                else:
+                    exit()
+                   
+        else:
+            print("you climb the steep tree and thinking you had a good grip you try to grab the cocunut but slipped and fell to your death :(")
+            play2 = input("do you wanna play again y or n")
+            if play2 == 'y':
+                playaging()
+            else:
+                exit()
+    else:
+        print("you go left and you come across a old hous that you where intreagued in. you go in and lay on a bed not knowing there where 100000  spiders under the bed that ate you while you where sleeping ")
+        play1 = input("do you wanna play again y or n")
+        if play1 == 'y':
+           playaging()
+        else:
+            exit()
+
+playaging()
+
+
+
